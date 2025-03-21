@@ -34,7 +34,6 @@ export default function App() {
 
   return (
     <div className="container">
-      {/* Cart Section */}
       <div className="cart">
         <h2>🛒 Shopping Cart</h2>
         {cart.length === 0 ? (
@@ -51,7 +50,6 @@ export default function App() {
         )}
       </div>
 
-      {/* Products Section */}
       <div className="products">
         {products.map((product) => (
           <div key={product.id} className="card">
